@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<main class="container-fluid">
+
+			<!-- HEADER -->
+			<section class="row">
+				<header class="col-md-12 black">
+					<h1 id="heading">Movie Factory</h1>
+				</header>
+			</section>
+
+			<!-- NAVBAR -->
+			<section class="row">
+				<nav class="nav col-md-12 bg-secondary" >
+				  <a class="nav-link" id="home">Home</a>
+				</nav>	
+			</section>
+
+			
+			<section  class=" row bg-dark">
+
+				<!-- The heading "Movies" and the sort button -->
+				
+					<div class="col-md-2 offset-md-5">
+						<h5 class="movies">Movies</h5>
+					</div>
+					<div class="col-md-1 ml-auto">
+						<button type="button" class="btn btn-sort" style="color:white;">Sort</button>
+					</div>
+				
+			</section>
+
+			<div class="row bg-dark" id=content>
+				<!-- Here is the content wich is generated with JavaScript -->
+			</div>
+
+
+
+			<section class="row">
+				<footer class="col-md-12 black">
+					<h1 id="heading">Movie Factory</h1>
+				</footer>
+			</section>
+		</main>
+		<div id="test">
+			
+		</div>
+
+
+
+        
+
+		<script src="js/data.json"></script>
+		<script src="js/myscript.js" async defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,32 @@
+var object = `[
+{
+	"image" : "img/tenet.jpg",
+	"movie" : "Tenet",
+	"description" : "There are things existing with inverted entropy which allows people to move backwards trough time.",
+	"likes" : 0
+}, {
+	"image" : "img/terminator.jpg",
+	"movie" : "The Terminator",
+	"description" : "A machine from the future comes back to the present and wants to kill a woman.",
+	"likes" : 0
+}, {
+	"image" : "img/first-blood.jpg",
+	"movie" : "First Blood",
+	"description" : "The Vietnam War veteran John Rambo comes back to civil life and gets chased by the police and National Guardsmen.",
+	"likes" : 0
+}, {
+	"image" : "img/night-at-the-museum.jpg",
+	"movie" : "Night at the Museum",
+	"description" : "Larry Daley, a night security guard got suprised, when the exhibits come to life.",
+	"likes" : 0
+}, {
+	"image" : "img/21-jump-street.jpg",
+	"movie" : "21 Jump Street",
+	"description" : "Two police officers go back to high school to prevent the outbreak of a new drug.",
+	"likes" : 0
+}, {
+	"image" : "img/harry-potter.jpg",
+	"movie" : "Harry Potter and the Sorcorer's Stone",
+	"description" : "A young boy finds out that he is a wizard and has been accepted into Hogwarts.",
+	"likes" : 0
+}]`
